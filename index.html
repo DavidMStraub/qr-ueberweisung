@@ -1,0 +1,46 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover" />
+  <meta name="Description" content="Put your description here.">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link
+    href="https://fonts.googleapis.com/css2?family=Inconsolata:wght@400&family=Titillium+Web:wght@200;300&display=swap"
+    rel="stylesheet">
+  <base href="/">
+
+  <style>
+    html,
+    body {
+      margin: 0;
+      padding: 1em;
+      font-family: 'Titillium Web';
+      font-weight: 300;
+    }
+    a:link, a:active, a:visited {
+      text-decoration: none;
+      color: rgb(94, 130, 160);
+    }
+    .footer p {
+      text-align: center;
+      color: rgba(0, 0, 0, 0.5);
+    }
+  </style>
+  <title>qr-transfer</title>
+</head>
+
+<body>
+  <qr-transfer></qr-transfer>
+
+  <div class="footer">
+    <p>Datenschutzhinweis: der QR-Code wird lokal im Browser erzeugt. Keine Daten werden zum Server übertragen.</p>
+    <p>Lizenz-Hinweis: dieses Werkzeug wird unter der MIT-Open-Source-Lizenz bereitgestellt. <a href="">Zum Quellcode</a>.</p>
+  </div>
+
+  <script type="module" src="./src/qr-transfer.js"></script>
+</body>
+
+</html>

@@ -1,6 +1,7 @@
 
 import {LitElement, css, html} from 'lit'
-import {girocode} from '@dipser/epc-qr-code.js'
+// import {girocode} from '@dipser/epc-qr-code.js'
+import {girocode} from '../node_modules/@dipser/epc-qr-code.js'
 import '@material/mwc-textfield'
 
 const _data = {
